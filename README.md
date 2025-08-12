@@ -1,42 +1,80 @@
-# 🚀 Heart Disease Prediction & GDP Dashboard 📊
+📈 Global GDP Dashboard: Unveiling Economic Futures
+✨ Project Overview
+Welcome to the Global GDP Dashboard, an interactive web application designed to visualize historical Gross Domestic Product (GDP) data and forecast future economic trends. Built with a focus on cutting-edge Machine Learning, this dashboard empowers users to explore global economic landscapes with unprecedented clarity and predictive insight.
 
-![Banner](assets/banner.png)
+This project is not just a visualization tool; it's a dynamic platform leveraging AI to bring economic data to life, making complex trends accessible and future predictions actionable.
 
-## 💡 Overview
-This repository contains **two interactive Streamlit applications**:
-1. 🫀 **Heart Disease Prediction** – Predicts heart disease risk using Machine Learning.  
-   🔗 [Live Demo](https://heart-diseaseprediction-zhl7t64qx8w9h5zna3vrce.streamlit.app/)
-2. 🌏 **GDP Dashboard** – Visualizes GDP data in a clean, interactive UI.  
-   🔗 [Live Demo](https://gdpdashboard-gprvxni7fdy2iaqfuynn7i.streamlit.app/)
+🚀 Live Demo
+Experience the dashboard live:
+Global GDP Dashboard Live App
 
----
+💡 Key Features
+Interactive GDP Trends: Visualize historical GDP data for multiple countries over custom time ranges.
 
-## 🛠 Tech Stack
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-007ACC?style=for-the-badge&logo=plotly&logoColor=white)
+AI-Powered Forecasting (Prophet ML): Predict future GDP trends for selected countries using advanced time-series forecasting models.
 
----
+Dynamic Country Selection: Easily select and compare GDP data for various nations worldwide.
 
-## 📸 Screenshots
+Real-time Data Updates: Data is fetched from a reliable public source (World Bank via GitHub) ensuring up-to-date insights.
 
-### 🫀 Heart Disease Prediction
-![Heart Disease Screenshot](assets/heart.png)
+Intuitive User Interface: A clean, responsive, and visually appealing design built with Streamlit for seamless user experience.
 
-### 🌏 GDP Dashboard
-![GDP Dashboard Screenshot](assets/gdp.png)
+Detailed Data Metrics: View latest GDP values and raw data tables for comprehensive analysis.
 
----
+Customizable Visualizations: Interactive Plotly charts for deep-dive analysis of economic patterns.
 
-## ⚡ Quick Start
+📸 Dashboard in Action
+Here's a glimpse of the Global GDP Dashboard:
 
-```bash
-# Clone the repo
-git clone https://github.com/YourUsername/YourRepoName.git
+Replace this placeholder image with a screenshot of your live app for the best effect!
 
-# Install dependencies
+🛠️ Technical Stack
+Core Language: Python
+
+Web Framework: Streamlit
+
+Data Manipulation: Pandas, NumPy
+
+Interactive Visualizations: Plotly Express
+
+Machine Learning (Time Series Forecasting): Prophet (from Meta)
+
+Deployment: Streamlit Community Cloud
+
+🚀 Getting Started (Local Setup)
+To run this dashboard on your local machine, follow these steps:
+
+Clone the Repository:
+
+git clone https://github.com/AkshatRaj00/GDPDashboard.git
+cd GDPDashboard
+
+Create a Virtual Environment (Recommended):
+
+python -m venv venv
+# On Windows:
+.\venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+
+Install Required Libraries:
+
 pip install -r requirements.txt
+# If you don't have requirements.txt, install manually:
+# pip install pandas streamlit plotly prophet holidays
 
-# Run Streamlit app
-streamlit run app.py
+Run the Streamlit App:
+
+streamlit run gdp_dashboard.py
+
+Your web browser will automatically open the dashboard.
+
+☁️ Deployment
+This application is deployed on Streamlit Community Cloud, making it accessible globally via a public URL. The deployment process is streamlined directly from the GitHub repository.
+
+📧 Contact & Credits
+Creator: Akshat Raj
+
+GitHub: AkshatRaj00
+
+Feel free to explore, provide feedback, or contribute to this project!
